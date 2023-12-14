@@ -1,7 +1,14 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 	public static void main(String[] args) {
-		System.out.println("Vai corinthians");
+		
+		Position pos = new Position(12, 1);
+		
+		System.out.println(pos);
+		
+		
 	}
 }
